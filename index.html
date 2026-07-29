@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رایکا پردازش</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page" id="top">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-right">
+        <button class="hamburger" id="hamburgerBtn" aria-label="باز کردن منو" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--title)" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <div class="logo">رایکا پردازش</div>
+        <nav class="main-nav" aria-label="ناوبری اصلی">
+          <a href="#services">خدمات</a>
+          <a href="#products">محصولات</a>
+          <a href="#about">درباره ما</a>
+          <a href="#contact">تماس با ما</a>
+        </nav>
+      </div>
+
+      <div class="header-left">
+        <div class="icon-cluster">
+          <button class="icon-circle-btn" aria-label="اعلان‌ها">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 12 0c0 4 1.4 5.4 1.4 5.4H4.6S6 13 6 9Z"/><path d="M10 18.5a2 2 0 0 0 4 0"/></svg>
+          </button>
+          <button class="icon-circle-btn" aria-label="جستجو">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.3-4.3"/></svg>
+          </button>
+          <span class="icon-divider" aria-hidden="true"></span>
+          <button class="avatar-btn" aria-label="حساب کاربری">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="3.4"/>
+              <path d="M5 19.5c1.7-3.4 4.3-5 7-5s5.3 1.6 7 5"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="ناوبری موبایل">
+      <a href="#services">خدمات</a>
+      <a href="#products">محصولات</a>
+      <a href="#about">درباره ما</a>
+      <a href="#contact">تماس با ما</a>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-card">
+
+      <div class="hero-visual">
+        <div class="circuit-field" aria-hidden="true">
+          <img src="Images/Hero/hero.png" alt="">
+        </div>
+        <div class="hero-gradient"></div>
+      </div>
+
+      <div class="slide-indicator" aria-hidden="true">
+        <div class="ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.6"><circle cx="12" cy="12" r="9" stroke-dasharray="2.5 3"/></svg>
+        </div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-kicker">نوآوری در الکترونیک، دقت در هر سیگنال</p>
+        <h1 class="hero-title">از طراحی تا پیاده‌سازی، ما فناوری را برای ارتباطی پایدارتر و هوشمندتر می‌سازیم.</h1>
+        <div class="hero-actions">
+          <a href="#learn-more" class="btn btn-primary">بیشتر بدانید</a>
+          <a href="#start" class="btn btn-secondary">شروع همکاری</a>
+        </div>
+      </div>
+
+      <div class="partners-float">
+        <button class="partners-float-top" aria-label="دیدن همه">
+          <span class="title-sm">دیدن همه</span>
+          <span class="back-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--card)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+          </span>
+        </button>
+        <div class="partners-float-bottom">
+          <div class="partners-float-text">
+            <div class="heading">همکاران ما</div>
+            <div class="desc">سایر شرکت‌های ما برای تماشا کلیک کنید</div>
+          </div>
+          <div class="thumb-stack">
+            <div class="th th1">
+              <img src="Images/Hero/img-one.png" alt="">
+            </div>
+            <div class="th th2">
+              <img src="Images/Hero/img-two.png" alt="">
+            </div>
+            <div class="th th3">
+              <img src="Images/Hero/img-three.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="trust-bar" aria-label="همکاران و شبکه‌های اجتماعی">
+    <div class="trust-inner">
+
+      <div class="follow-cluster">
+        <span class="follow-label">دنبال کردن</span>
+        <div class="social-icons">
+          <a class="icon-circle-btn" href="#" aria-label="تلگرام">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11.5l6 2 2 6 2.5-4L18 19l3-15z"/><path d="M9.5 13.5L18 6"/></svg>
+          </a>
+          <a class="icon-circle-btn" href="#" aria-label="واتساپ">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.6 19L4 20Z"/><path d="M8.5 9.7c.3 2.3 2.5 4.5 4.8 4.8.9.1 1.1-.6 1-1.1l-.4-1-1.4-.2-1-1-.2-1.4-1-.4c-.5-.1-1.2.1-1.1 1Z"/></svg>
+          </a>
+          <a class="icon-circle-btn" href="#" aria-label="ایکس">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F8FAFC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="partners-list">
+        <div class="marquee-content">
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l5-3v3l5-3v3l5-3v14H3Z"/><path d="M3 21h18"/><path d="M7 21v-4M12 21v-4M17 21v-4"/></svg>
+            <span>شرکت فولاد مبارکه</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M8 9a4 4 0 0 1 8 0M5 13a7 7 0 0 1 14 0"/><path d="M12 9v12M8 21h8"/></svg>
+            <span>شرکت مخابرات ایران</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h1l2-6h8l3 4h4v2"/><path d="M6 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/><path d="M14 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/><path d="M9 11V8h4l2 3"/></svg>
+            <span>ایران خودرو</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l5-9 3 2 4-7 4 14H4Z"/><path d="M14 6l3-3 2 2-3 3"/></svg>
+            <span>شرکت معادن ایران</span>
+          </div>
+        </div>
+        <div class="marquee-content marquee-duplicate" aria-hidden="true">
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l5-3v3l5-3v3l5-3v14H3Z"/><path d="M3 21h18"/><path d="M7 21v-4M12 21v-4M17 21v-4"/></svg>
+            <span>شرکت فولاد مبارکه</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M8 9a4 4 0 0 1 8 0M5 13a7 7 0 0 1 14 0"/><path d="M12 9v12M8 21h8"/></svg>
+            <span>شرکت مخابرات ایران</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h1l2-6h8l3 4h4v2"/><path d="M6 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/><path d="M14 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/><path d="M9 11V8h4l2 3"/></svg>
+            <span>ایران خودرو</span>
+          </div>
+          <div class="partner-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l5-9 3 2 4-7 4 14H4Z"/><path d="M14 6l3-3 2 2-3 3"/></svg>
+            <span>شرکت معادن ایران</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <p class="about-eyebrow">// درباره ما</p>
+          <h2 class="about-heading">درباره شرکت <span class="about-heading-highlight">رایکا‌پردازش</span></h2>
+
+          <p class="about-paragraph">شرکت رایکا‌پردازش، با تکیه بر دانش فنی، نوآوری و تجربه تیمی متخصص، در زمینه طراحی و توسعه سامانه‌های الکترونیکی و ارتباطی پیشرفته فعالیت می‌کند. هدف ما ایجاد راهکارهایی دقیق، هوشمند و پایدار است که نیازهای صنایع گوناگون را در حوزه‌های مخابرات، کنترل، اتوماسیون و سیستم‌های هوشمند برآورده سازد. در رایکا‌پردازش، باور داریم که فناوری زمانی ارزشمند است که در خدمت پیشرفت و بهبود کیفیت زندگی باشد.</p>
+          <p class="about-paragraph">ما با نگاه به آینده و تمرکز بر نوآوری، تلاش می‌کنیم پلی میان ایده‌های خلاقانه و فناوری‌های پیشرفته بسازیم تا مسیر رشد صنعتی و فناورانه کشور هموارتر شود. همین دلیل، تمرکز ما بر تحقیق و توسعه (R&D)، استانداردهای جهانی و ارائه راهکارهای بومی‌سازی‌شده است تا از ایده تا اجرا، پروژه‌هایی قابل اعتماد و ماندگار خلق کنیم.</p>
+
+          <div class="about-card">
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              <span>تخصص در طراحی و تولید مدارهای پیشرفته</span>
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              <span>نوآوری در سامانه‌های ارتباطی و مخابراتی</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn about-readmore">
+            <span>بیشتر بخوانید</span>
+            <span class="back-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--card)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+            </span>
+            <span class="about-readmore-badge" aria-hidden="true">!</span>
+          </a>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-visual-col reveal" style="--reveal-delay:.12s">
+            <div class="about-block about-block-solid about-block-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3.2"/>
+                <path d="M12 3.5v2.2M12 18.3v2.2M20.5 12h-2.2M5.7 12H3.5M17.8 6.2l-1.6 1.6M7.8 16.2l-1.6 1.6M17.8 17.8l-1.6-1.6M7.8 7.8L6.2 6.2"/>
+              </svg>
+              <p>دقت مهندسی و کیفیت ساخت در بالاترین سطح صنعتی</p>
+            </div>
+            <div class="about-block about-block-image">
+              <img src="Images/About-us/01.png" alt="نمای نزدیک مدار چاپی رایکا‌پردازش" style="object-position:82% 88%;">
+              <div class="about-block-overlay"></div>
+            </div>
+          </div>
+          <div class="about-visual-col reveal" style="--reveal-delay:.24s">
+            <div class="about-block about-block-image">
+              <img src="Images/About-us/01.png" alt="نمای نزدیک مدار چاپی رایکا‌پردازش" style="object-position:18% 12%;">
+              <div class="about-block-overlay"></div>
+            </div>
+            <div class="about-block about-block-solid about-block-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 18.5h.01"/>
+                <path d="M8.5 15.2a5 5 0 0 1 7 0"/>
+                <path d="M5.3 12a9.5 9.5 0 0 1 13.4 0"/>
+              </svg>
+              <p>توسعه سامانه‌های هوشمند ارتباطی و یکپارچه‌سازی داده‌ها</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="services">
+    <div class="services-inner">
+
+      <div class="services-header reveal">
+        <div class="services-heading-block">
+          <p class="services-eyebrow"><span class="services-eyebrow-slashes">//</span> <span class="services-eyebrow-word">خدمات</span></p>
+          <h2 class="services-heading">
+            <span class="services-heading-line">مهندسی دقیق برای دنیایی هوشمند</span>
+            <span class="services-heading-line">توسعه و بهبود سیستم‌های الکترونیکی</span>
+          </h2>
+        </div>
+        <a href="#" class="btn services-btn">سایر خدمات</a>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="services-card reveal" style="--reveal-delay:0s">
+          <div class="services-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="7" y="7" width="10" height="10" rx="1.5"/>
+              <rect x="10" y="10" width="4" height="4" rx="0.5"/>
+              <path d="M9 3.5v2.3M12 3.5v2.3M15 3.5v2.3M9 18.2v2.3M12 18.2v2.3M15 18.2v2.3M3.5 9h2.3M3.5 12h2.3M3.5 15h2.3M18.2 9h2.3M18.2 12h2.3M18.2 15h2.3"/>
+            </svg>
+          </div>
+          <h3 class="services-card-title">ساخت بردهای الکترونیکی</h3>
+          <p class="services-card-text">رایکا پردازش پارت با بهره‌گیری از دانش تخصصی در طراحی سخت‌افزار، انواع بردهای کنترلی، مخابراتی و صنعتی را بر اساس نیاز هر پروژه طراحی و تولید می‌کند.</p>
+          <a href="#" class="services-card-link">
+            <span>دیدن همه</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--card)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="services-card reveal" style="--reveal-delay:.1s">
+          <div class="services-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21V9"/>
+              <path d="M8.5 21h7"/>
+              <path d="M7 9l5-6 5 6"/>
+              <path d="M9.3 6.6a4 4 0 0 1 5.4 0"/>
+            </svg>
+          </div>
+          <h3 class="services-card-title">توسعه سامانه‌های ارتباطی</h3>
+          <p class="services-card-text">این شرکت در زمینه طراحی و تولید سامانه‌های رادیویی و دیتا‌لینک‌های برد بلند فعالیت دارد. محصولات این حوزه در صنایع معدنی، نظامی و حمل‌ونقل مورد استفاده قرار می‌گیرند.</p>
+          <a href="#" class="services-card-link">
+            <span>دیدن همه</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--card)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="services-card reveal" style="--reveal-delay:.2s">
+          <div class="services-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 12a8 8 0 0 1 13.7-5.7L20 8"/>
+              <path d="M20 4v4h-4"/>
+              <path d="M20 12a8 8 0 0 1-13.7 5.7L4 16"/>
+              <path d="M4 20v-4h4"/>
+            </svg>
+          </div>
+          <h3 class="services-card-title">بهینه‌سازی تجهیزات</h3>
+          <p class="services-card-text">این خدمت به سازمان‌ها کمک می‌کند تا بدون وابستگی به منابع خارجی، قطعات و سیستم‌های حیاتی خود را بازسازی یا ارتقا دهند.</p>
+          <a href="#" class="services-card-link">
+            <span>دیدن همه</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--card)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="whyus-section" id="why-us">
+    <div class="whyus-inner">
+
+      <p class="whyus-eyebrow reveal">
+        <span class="whyus-eyebrow-slashes">//</span>
+        <span class="whyus-eyebrow-word">چرا ما ؟</span>
+      </p>
+
+      <h2 class="whyus-heading reveal" style="--reveal-delay:.08s">
+        چرا <span class="whyus-heading-highlight">رایکا‌پردازش</span> ؟
+      </h2>
+
+      <div class="whyus-grid">
+
+        <article class="whyus-item reveal" style="--reveal-delay:0s">
+          <span class="whyus-number">۰۱</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">تخصص در طراحی برد های الکترونیکی</h3>
+            <p class="whyus-paragraph">توسعه و تولید بردهای سفارشی با دقت بالا و بر پایه‌ی نیازهای خاص صنعتی و نظامی.</p>
+          </div>
+        </article>
+
+        <article class="whyus-item reveal" style="--reveal-delay:.06s">
+          <span class="whyus-number">۰۲</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">نوآوری در توسعه سامانه‌های ارتباطی</h3>
+            <p class="whyus-paragraph">طراحی و پیاده‌سازی سیستم‌های ارتباطی پیشرفته با تمرکز بر پایداری، امنیت و عملکرد بالا.</p>
+          </div>
+        </article>
+
+        <article class="whyus-item reveal" style="--reveal-delay:.12s">
+          <span class="whyus-number">۰۳</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">تضمین کیفیت و استانداردهای فنی</h3>
+            <p class="whyus-paragraph">تمام محصولات و خدمات مطابق با استانداردهای بین‌المللی و پروتکل‌های صنعتی تست و ارزیابی می‌شوند.</p>
+          </div>
+        </article>
+
+        <article class="whyus-item reveal" style="--reveal-delay:.18s">
+          <span class="whyus-number">۰۴</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">پشتیبانی و همکاری بلندمدت</h3>
+            <p class="whyus-paragraph">ارائه پشتیبانی فنی، به‌روزرسانی نرم‌افزاری و مشاوره تخصصی در تمام مراحل پروژه.</p>
+          </div>
+        </article>
+
+        <article class="whyus-item reveal" style="--reveal-delay:.24s">
+          <span class="whyus-number">۰۵</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">واحد تحقیق و توسعه (R&D) فعال</h3>
+            <p class="whyus-paragraph">تمرکز ویژه بر تحقیق و بهبود فناوری‌های نوین برای ارتقای کارایی تجهیزات و محصولات.</p>
+          </div>
+        </article>
+
+        <article class="whyus-item reveal" style="--reveal-delay:.3s">
+          <span class="whyus-number">۰۶</span>
+          <div class="whyus-content">
+            <h3 class="whyus-item-title">تکیه بر دانش فنی بومی</h3>
+            <p class="whyus-paragraph">تمام طراحی‌ها و راهکارها توسط مهندسان ایرانی و بر پایه‌ی فناوری بومی توسعه می‌یابد.</p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+  <div class="projects-inner">
+
+    <div class="projects-header reveal">
+      <div class="projects-heading-block">
+        <p class="projects-eyebrow">
+          <span class="projects-eyebrow-slashes">//</span>
+          <span class="projects-eyebrow-word">پروژه های ما</span>
+        </p>
+        <h2 class="projects-heading">پروژه های <span class="projects-heading-highlight">رایکا‌پردازش</span></h2>
+      </div>
+      <a href="#" class="btn projects-btn">همه ی پروژه ها</a>
+    </div>
+
+    <div class="projects-carousel-wrap">
+      <div class="projects-carousel" id="projectsCarousel">
+        <div class="projects-grid">
+          <article class="projects-card reveal" style="--reveal-delay:0s">
+            <img src="Images/Our-Projects/card01-projects.png" alt="سامانه ارتباطی برد بلند">
+            <div class="projects-card-overlay"></div>
+            <div class="projects-card-content">
+              <h3 class="projects-card-title">سامانه ارتباطی برد بلند</h3>
+              <p class="projects-card-text">توسعه سیستم ارتباطی بی‌سیم با برد بالا برای کاربردهای صنعتی و نظامی.</p>
+            </div>
+          </article>
+
+          <article class="projects-card reveal" style="--reveal-delay:.1s">
+            <img src="Images/Our-Projects/card02-projects.png" alt="پلتفرم مانیتورینگ تجهیزات">
+            <div class="projects-card-overlay"></div>
+            <div class="projects-card-content">
+              <h3 class="projects-card-title">پلتفرم مانیتورینگ تجهیزات</h3>
+              <p class="projects-card-text">سامانه تحت وب برای پایش لحظه‌ای و هوشمند عملکرد دستگاه‌های ارتباطی.</p>
+            </div>
+          </article>
+
+          <article class="projects-card reveal" style="--reveal-delay:.2s">
+            <img src="Images/Our-Projects/card03-projects.png" alt="برد کنترل مرکزی">
+            <div class="projects-card-overlay"></div>
+            <div class="projects-card-content">
+              <h3 class="projects-card-title">برد کنترل مرکزی</h3>
+              <p class="projects-card-text">طراحی و ساخت برد هوشمند کنترل برای مدیریت تجهیزات الکترونیکی دقیق.</p>
+            </div>
+          </article>
+
+          <article class="projects-card reveal" style="--reveal-delay:.3s">
+            <img src="Images/Our-Projects/card04-projects.png" alt="ماژول تغذیه پایدار">
+            <div class="projects-card-overlay"></div>
+            <div class="projects-card-content">
+              <h3 class="projects-card-title">ماژول تغذیه پایدار</h3>
+              <p class="projects-card-text">طراحی مدار تغذیه با بازده بالا و محافظت چندلایه برای سیستم‌های حساس.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section class="team-section" id="team">
+  <div class="team-inner">
+
+    <div class="team-header reveal">
+      <div class="team-heading-block">
+        <p class="team-eyebrow">
+          <span class="team-eyebrow-slashes">//</span>
+          <span class="team-eyebrow-word">تیم ما</span>
+        </p>
+        <h2 class="team-heading">تیم <span class="team-heading-highlight">رایکا‌پردازش</span></h2>
+      </div>
+      <a href="#" class="btn team-btn">همکاری با ما</a>
+    </div>
+
+    <div class="team-carousel-wrap">
+      <div class="team-carousel" id="teamCarousel">
+        <div class="team-track">
+
+      <article class="team-card reveal" style="--reveal-delay:0s">
+        <img src="Images/Our-Team/Arash-Hosseini.png" alt="آرش حسینی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">آرش حسینی</h3>
+          <p class="team-card-role">مهندس ناظر</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.05s">
+        <img src="Images/Our-Team/Sara-Rahimi.png" alt="سارا رحیمی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">سارا رحیمی</h3>
+          <p class="team-card-role">معمار و طراح</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.1s">
+        <img src="Images/Our-Team/Saman-Amiri.png" alt="سامان امیری">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">سامان امیری</h3>
+          <p class="team-card-role">طراح دکوراسیون</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.15s">
+        <img src="Images/Our-Team/Mona-Hamidi.png" alt="مونا حمیدی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">مونا حمیدی</h3>
+          <p class="team-card-role">کارمند اداری</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.2s">
+        <img src="Images/Our-Team/Saeid-Rezaei.png" alt="سعید رضایی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">سعید رضایی</h3>
+          <p class="team-card-role">کارشناس مالی</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.25s">
+        <img src="Images/Our-Team/Negar-Sadeghi.png" alt="نگار صادقی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">نگار صادقی</h3>
+          <p class="team-card-role">مسئول روابط عمومی</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.3s">
+        <img src="Images/Our-Team/Reza.png" alt="رضا کریمی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">رضا کریمی</h3>
+          <p class="team-card-role">سرپرست تولید</p>
+        </div>
+      </article>
+      <article class="team-card reveal" style="--reveal-delay:.35s">
+        <img src="Images/Our-Team/Elham-Tavvakoli.png" alt="الهام توکلی">
+        <div class="team-card-overlay"></div>
+        <div class="team-card-content">
+          <h3 class="team-card-name">الهام توکلی</h3>
+          <p class="team-card-role">کارشناس منابع انسانی</p>
+        </div>
+      </article>
+        </div>
+      </div>
+
+      <div class="team-dots" id="teamDots">
+        <span class="team-dot active"></span>
+        <span class="team-dot"></span>
+        <span class="team-dot"></span>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <section class="footer-section">
+  <div class="footer-inner">
+    <div class="footer-card reveal">
+
+      <div class="footer-top">
+        <h2 class="footer-logo font-modam-extrabold">رایکا‌پردازش</h2>
+        <p class="footer-intro font-iransans-regular">شرکت رایکا‌پردازش، با تکیه بر دانش فنی، نوآوری و تجربه تیمی متخصص، در زمینه طراحی و توسعه سامانه‌های الکترونیکی و ارتباطی پیشرفته فعالیت می‌کند. هدف ما ایجاد راهکارهایی دقیق است که نیازهای صنایع گوناگون را در حوزه‌های مخابرات، کنترل، اتوماسیون و سیستم‌های هوشمند برآورده سازد.</p>
+      </div>
+
+      <div class="footer-columns">
+
+        <div class="footer-col footer-col-links">
+          <h3 class="footer-col-title">دسترسی سریع</h3>
+          <ul class="footer-links" style="list-style:none;">
+            <li><a href="#about">درباره ما</a></li>
+            <li><a href="#products">محصولات ما</a></li>
+            <li><a href="#services">خدمات ما</a></li>
+            <li><a href="#team">تیم ما</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-contact">
+          <h3 class="footer-col-title">تماس با ما</h3>
+          <ul class="footer-contact-list" style="list-style:none;">
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <a href="mailto:atashyamirhossein@gmail.com" class="footer-email">atashyamirhossein@gmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              <span>09153465982</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>مشهد ، بلوار سجاد ، سجاد ۱۲</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+              <span>هفت روز هفته ۱۱ الی ۲۲</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-badges">
+          <h3 class="footer-col-title">نماد الکترونیک</h3>
+          <div class="footer-badges-grid">
+            <div class="footer-badge"><img src="Images/Namads/kasbokar 1.png" alt=""></div>
+            <div class="footer-badge"><img src="Images/Namads/logo 1.png" alt=""></div>
+            <div class="footer-badge"><img src="Images/Namads/rezi 1.png" alt=""></div>
+            <div class="footer-badge"><img src="Images/Namads/sapra 1.png" alt=""></div>
+          </div>
+        </div>
+
+        <div class="footer-col footer-col-social">
+          <h3 class="footer-col-title">با ما همراه باشید</h3>
+          <div class="footer-social-row">
+            <a class="footer-social-btn" href="#" aria-label="تلگرام">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11.5l6 2 2 6 2.5-4L18 19l3-15z"/><path d="M9.5 13.5L18 6"/></svg>
+            </a>
+            <a class="footer-social-btn" href="#" aria-label="پینترست">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M9.8 18.5c.5-2 1.6-6.8 2-8.6.3-1.4 2.3-1.2 2.3.2 0 1.4-.9 3.5-2.3 3.5-.5 0-.9-.2-1.1-.5"/></svg>
+            </a>
+            <a class="footer-social-btn" href="#" aria-label="فیسبوک">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a class="footer-social-btn" href="#" aria-label="تیک‌تاک">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v12a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7"/></svg>
+            </a>
+            <a class="footer-social-btn" href="#" aria-label="لینکدین">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-float">
+        <button class="footer-back-top" id="backToTop" aria-label="بازگشت به بالا">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg>
+        </button>
+        <div class="footer-newsletter">
+          <span class="footer-newsletter-text">اولین نفری باشید که از اخبار ویژه مطلع می شوید !</span>
+          <div class="footer-newsletter-form">
+            <input type="tel" class="footer-newsletter-input" placeholder="شماره موبایل" dir="rtl">
+            <button type="button" class="footer-newsletter-btn">عضویت</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+</div>
+
+<!-- کرسر کراس‌هیر مهندسی -->
+<div id="cursor" class="cursor-reticle">
+    <span class="reticle-line reticle-h"></span>
+    <span class="reticle-line reticle-v"></span>
+    <span class="reticle-dot"></span>
+    <span class="reticle-corner tl"></span>
+    <span class="reticle-corner tr"></span>
+    <span class="reticle-corner bl"></span>
+    <span class="reticle-corner br"></span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
